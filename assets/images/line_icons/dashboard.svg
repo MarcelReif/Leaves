@@ -1,0 +1,17 @@
+<svg id="dashboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.697 22.697">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #60a7fc;
+      }
+    </style>
+  </defs>
+  <g id="Gruppe_13" data-name="Gruppe 13">
+    <g id="Gruppe_12" data-name="Gruppe 12">
+      <rect id="Rechteck_9" data-name="Rechteck 9" class="cls-1" width="10.088" height="7.566" transform="translate(12.61)"/>
+      <rect id="Rechteck_10" data-name="Rechteck 10" class="cls-1" width="10.088" height="12.61"/>
+      <rect id="Rechteck_11" data-name="Rechteck 11" class="cls-1" width="10.088" height="7.566" transform="translate(0 15.132)"/>
+      <rect id="Rechteck_12" data-name="Rechteck 12" class="cls-1" width="10.088" height="12.61" transform="translate(12.61 10.088)"/>
+    </g>
+  </g>
+</svg>

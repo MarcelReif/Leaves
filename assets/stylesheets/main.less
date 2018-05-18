@@ -1,0 +1,48 @@
+@import "ui_elements";
+
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', 'Roboto', 'arial', 'sans-serif';
+}
+
+body {
+  &:before {
+    display: block;
+    position: fixed;
+    content: '';
+    background: @gradient_blue;
+    width: 100%;
+    height: 100%;
+    opacity: .11;
+    z-index: -1;
+    top: 0;
+  }
+}
+
+main {
+  width: calc(~'100% - 330px');
+  padding: 75px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 0;
+}
+
+.subheading {
+  margin-bottom: 25px;
+  
+  &.child {
+    margin-top: 55px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

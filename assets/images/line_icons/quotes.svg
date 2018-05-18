@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.821 17.106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_010-quotes" data-name="010-quotes" transform="translate(0 -34.951)">
+    <path id="Pfad_119" data-name="Pfad 119" class="cls-1" d="M.4,40.294H3.256a.4.4,0,0,0,.4-.4V37.038a.4.4,0,0,0-.4-.4H.8v-.292l.716-.716a.4.4,0,1,0-.564-.564L.117,35.9A.4.4,0,0,0,0,36.182V39.9A.4.4,0,0,0,.4,40.294Zm2.459-2.857V39.5H.8v-2.06Z" transform="translate(0)"/>
+    <path id="Pfad_120" data-name="Pfad 120" class="cls-1" d="M86.587,40.294h2.857a.4.4,0,0,0,.4-.4V37.038a.4.4,0,0,0-.4-.4H86.985v-.292l.716-.716a.4.4,0,1,0-.564-.564L86.3,35.9a.4.4,0,0,0-.117.282V39.9A.4.4,0,0,0,86.587,40.294Zm2.459-2.857V39.5h-2.06v-2.06Z" transform="translate(-81.607)"/>
+    <path id="Pfad_121" data-name="Pfad 121" class="cls-1" d="M326.256,256.281H323.4a.4.4,0,0,0-.4.4v2.857a.4.4,0,0,0,.4.4h2.459v.292l-.716.716a.4.4,0,0,0,.564.564l.833-.833a.4.4,0,0,0,.117-.282V256.68A.4.4,0,0,0,326.256,256.281Zm-2.459,2.857v-2.06h2.06v2.06Z" transform="translate(-305.833 -209.567)"/>
+    <path id="Pfad_122" data-name="Pfad 122" class="cls-1" d="M240.068,256.281h-2.857a.4.4,0,0,0-.4.4v2.857a.4.4,0,0,0,.4.4h2.459v.292l-.716.716a.4.4,0,0,0,.564.564l.833-.833a.4.4,0,0,0,.117-.282V256.68A.4.4,0,0,0,240.068,256.281Zm-2.459,2.857v-2.06h2.06v2.06Z" transform="translate(-224.226 -209.567)"/>
+    <path id="Pfad_123" data-name="Pfad 123" class="cls-1" d="M178.519,121.277h10.557a.4.4,0,1,0,0-.8H178.519a.4.4,0,1,0,0,.8Z" transform="translate(-168.653 -80.983)"/>
+    <path id="Pfad_124" data-name="Pfad 124" class="cls-1" d="M20.423,167.871H.4a.4.4,0,0,0,0,.8H20.423a.4.4,0,0,0,0-.8Z" transform="translate(0 -125.856)"/>
+    <path id="Pfad_125" data-name="Pfad 125" class="cls-1" d="M20.423,215.262H.4a.4.4,0,0,0,0,.8H20.423a.4.4,0,0,0,0-.8Z" transform="translate(0 -170.728)"/>
+    <path id="Pfad_126" data-name="Pfad 126" class="cls-1" d="M10.965,310.043H.4a.4.4,0,1,0,0,.8H10.965a.4.4,0,1,0,0-.8Z" transform="translate(0 -260.471)"/>
+    <path id="Pfad_127" data-name="Pfad 127" class="cls-1" d="M10.965,262.652H.4a.4.4,0,1,0,0,.8H10.965a.4.4,0,1,0,0-.8Z" transform="translate(0 -215.599)"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+#billing .parent,
+#support .parent {
+  margin-bottom: 25px;
+}
+#billing .parent:last-of-type,
+#support .parent:last-of-type {
+  margin-bottom: 0;
+}
+#billing .btn,
+#support .btn {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+}
+#billing .btn:after,
+#support .btn:after {
+  display: none;
+}
+#billing .content,
+#support .content {
+  width: calc(100% - 80px);
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+#billing .content h4,
+#support .content h4 {
+  margin-bottom: 3px;
+}
+#billing object,
+#support object {
+  filter: brightness(0) invert(1);
+  height: 29px;
+  width: 32px;
+  margin-bottom: -3px;
+}
+/*# sourceMappingURL=service_overview.css.map */

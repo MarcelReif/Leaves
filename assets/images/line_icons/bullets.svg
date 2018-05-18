@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.037 17.106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_009-bullets" data-name="009-bullets" transform="translate(0 -32.501)">
+    <path id="Pfad_113" data-name="Pfad 113" class="cls-1" d="M67.069,52.139H82.924a.569.569,0,0,0,0-1.138H67.069a.569.569,0,1,0,0,1.138Z" transform="translate(-61.455 -17.097)"/>
+    <path id="Pfad_114" data-name="Pfad 114" class="cls-1" d="M82.924,138H67.069a.569.569,0,1,0,0,1.138H82.924a.569.569,0,1,0,0-1.138Z" transform="translate(-61.455 -97.496)"/>
+    <path id="Pfad_115" data-name="Pfad 115" class="cls-1" d="M82.924,225H67.069a.569.569,0,1,0,0,1.138H82.924a.569.569,0,1,0,0-1.138Z" transform="translate(-61.455 -177.895)"/>
+    <path id="Pfad_116" data-name="Pfad 116" class="cls-1" d="M1.972,32.5a1.972,1.972,0,1,0,1.972,1.972A1.975,1.975,0,0,0,1.972,32.5Zm0,2.807a.834.834,0,1,1,.834-.834A.834.834,0,0,1,1.972,35.308Z"/>
+    <path id="Pfad_117" data-name="Pfad 117" class="cls-1" d="M1.972,119.5a1.972,1.972,0,1,0,1.972,1.972A1.975,1.975,0,0,0,1.972,119.5Zm0,2.807a.834.834,0,1,1,.834-.834A.834.834,0,0,1,1.972,122.307Z" transform="translate(0 -80.399)"/>
+    <path id="Pfad_118" data-name="Pfad 118" class="cls-1" d="M1.972,206a1.972,1.972,0,1,0,1.972,1.972A1.975,1.975,0,0,0,1.972,206Zm0,2.807a.834.834,0,1,1,.834-.834A.834.834,0,0,1,1.972,208.806Z" transform="translate(0 -160.336)"/>
+  </g>
+</svg>

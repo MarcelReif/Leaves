@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.4 15.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_012-undelined" data-name="012-undelined" transform="translate(-33.362)">
+    <path id="Pfad_93" data-name="Pfad 93" class="cls-1" d="M61.621,2.215a.348.348,0,0,0,.348-.348V.7h3.859V12.556h-.8a.348.348,0,0,0,0,.7h2.3a.348.348,0,1,0,0-.7h-.8V.7h3.859v1.17a.348.348,0,1,0,.7,0V.348A.348.348,0,0,0,70.733,0H61.621a.348.348,0,0,0-.348.348V1.867A.348.348,0,0,0,61.621,2.215Z" transform="translate(-26.615)"/>
+    <path id="Pfad_94" data-name="Pfad 94" class="cls-1" d="M45.415,318.725H33.71a.348.348,0,0,0,0,.7h11.7a.348.348,0,0,0,0-.7Z" transform="translate(0 -303.922)"/>
+  </g>
+</svg>

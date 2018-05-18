@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.642 15.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="_011-strike-through" data-name="011-strike-through" class="cls-1" d="M17.183,24.831H15.015V18a.458.458,0,1,0-.916,0v6.834H3.542V18a.458.458,0,1,0-.916,0v6.834H.458a.458.458,0,1,0,0,.916H2.626v1.1a6.195,6.195,0,1,0,12.389,0v-1.1h2.168a.458.458,0,1,0,0-.916ZM14.1,26.844a5.279,5.279,0,1,1-10.558,0v-1.1H14.1Z" transform="translate(0 -17.539)"/>
+</svg>

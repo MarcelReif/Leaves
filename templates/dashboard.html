@@ -1,0 +1,72 @@
+<h1>Guten Tag</h1>
+<h5 class="dimmed">Willkommen auf Ihrem persönlichen Dashboard, Herr Reif.</h5>
+
+<div id="statistics_board">
+    <div class="subheading child">
+        <h3>Statistiken der letzten 24 Stunden</h3>
+        <h5 class="dimmed">Aktuelle und frühere Leistungsinformationen.</h5>
+    </div>
+    <canvas id="performance_chart" height="80"></canvas>
+</div>
+
+<div class="flex">
+    <div class="row">
+        <div class="con con1">
+            <div id="billing">
+                <div class="subheading child">
+                    <h3>Abrechnung</h3>
+                    <h5 class="dimmed">Vergangene und kommende Rechnungen.</h5>
+                </div>
+                <div class="parent">
+                    <a class="btn red" href="#">
+                        <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
+                    </a>
+                    <div class="content">
+                        <h4>vServer XL - 11.05.2018 bis 11.06.2018</h4>
+                        <p class="bold">PayPal, 9,81€</p>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <a class="btn blue action done" href="#">
+                        <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
+                    </a>
+                    <div class="content">
+                        <h4>vServer XL - 11.05.2018 bis 11.06.2018</h4>
+                        <p class="bold">PayPal, 9,81€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="con con1">
+            <div id="support">
+                <div class="subheading child">
+                    <h3>Unterstützung</h3>
+                    <h5 class="dimmed">Offene und geschnlossene Anfragen einsehen.</h5>
+                </div>
+
+                <div class="parent">
+                    <a class="btn yellow action important" href="#">
+                        <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
+                    </a>
+                    <div class="content">
+                        <h4>Paketlisten konnten nicht korrekt abgerufen werden</h4>
+                        <p class="bold">Marcel Reif, letzte Antwort: 16:35 - 11.05.2018</p>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <a class="btn blue action done" href="#">
+                        <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
+                    </a>
+                    <div class="content">
+                        <h4>Server startet durchgehend neu</h4>
+                        <p class="bold">Marcel Reif, geschlossen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="external/chartjs/performance_chart.js"></script>
