@@ -22,6 +22,7 @@
         <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-96x96.png" sizes="96x96"/>
         <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-32x32.png" sizes="32x32"/>
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/all.min.css">
+        <link rel="stylesheet" type="text/css" href="external/fontawesome/css/fontawesome-all.min.css">
 
         <script src="external/chartjs/chartjs.js"></script>
     </head>
@@ -60,17 +61,36 @@
             <a class="btn red round" id="logout">Abmelden</a>
         </div>
 
+        <!--#include FILE="templates/executing_action.html" -->
+
         <main>
             <!--#include FILE="templates/user_settings.html" -->
 
             <!--#include FILE="templates/service_management.html" -->
 
-            <div class="modal">
-                <div class="content">
-                    <!--#include FILE="templates/service_console.html" -->
-                </div>
-            </div>
+            <!--#include FILE="templates/filemanager.html" -->
         </main>
+
+        <div class="modal" id="console" trigger="console">
+            <div class="content large">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/service_console.html" -->
+            </div>
+        </div>
+
+        <div class="modal" id="reinstall_service" trigger="reinstall_service">
+            <div class="content small">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/reinstall_service.html" -->
+            </div>
+        </div>
+
+        <div class="modal" id="delete_service" trigger="delete_service">
+            <div class="content small">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/delete_service.html" -->
+            </div>
+        </div>
 
         <script src="assets/javascript/jquery.js"></script>
         <script src="assets/javascript/main.js"></script>

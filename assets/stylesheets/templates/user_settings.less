@@ -3,10 +3,22 @@
   top: 75px;
   right: 75px;
 
+  .con {
+    margin: 0 2px;
+  }
+
+  .row {
+    margin: 15px -2px;
+  }
+
   #notification {
     display: inline-block;
     position: relative;
     margin-right: 15px;
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
 
     &:after {
       border-radius: 100px;
@@ -31,11 +43,77 @@
     width: 32px;
     height: 32px;
     position: relative;
+    cursor: pointer;
 
     &#profile_image {
       object-fit: cover;
       border-radius: 5px;
       box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
+    }
+  }
+
+  #notifications {
+    right: 35px;
+
+    i {
+      color: @black;
+      font-size: 22px;
+      opacity: .5;
+    }
+  }
+
+  #user_panel {
+    right: -15px;
+  }
+
+  .user_panel_dropdown {
+    position: absolute;
+    top: 70px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    z-index: -5;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+
+    &.small {
+      width: 200px;
+    }
+
+    &.medium {
+      width: 400px;
+    }
+
+    &.large {
+      width: 600px;
+    }
+
+    &.visible {
+      top: 60px;
+      z-index: 3;
+      opacity: 1;
+    }
+
+    i {
+      margin-right: 5px;
+    }
+
+    &:before {
+      width: 16px;
+      height: 16px;
+      transform: rotate(45deg);
+      background: white;
+      border-radius: 5px;
+      display: block;
+      position: absolute;
+      top: -8px;
+      right: 22px;
+      content: '';
     }
   }
 }

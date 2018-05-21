@@ -1,0 +1,41 @@
+<h1>Statistiken</h1>
+<h5 class="dimmed">Einsehen der Dienstnutzung.</h5>
+
+<div id="network_stats">
+    <div class="flex">
+        <div class="row">
+            <div class="con con1">
+                <div class="subheading child">
+                    <h3>Netzwerknutzung der letzten 24 Stunden</h3>
+                    <h5 class="dimmed">Aktuelle und frühere Leistungsinformationen.</h5>
+                </div>
+                <canvas id="network_chart" height="120"></canvas>
+            </div>
+            <div class="con con1">
+                <div class="subheading child">
+                    <h3>Festplattennutzung der letzten 24 Stunden</h3>
+                    <h5 class="dimmed">Aktuelle und frühere Leistungsinformationen.</h5>
+                </div>
+                <canvas id="disk_chart" height="120"></canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="con con1">
+                <div class="subheading child">
+                    <h3>I/O der letzten 24 Stunden</h3>
+                    <h5 class="dimmed">Aktuelle und frühere Leistungsinformationen.</h5>
+                </div>
+                <canvas id="iops_chart" height="120"></canvas>
+            </div>
+            <div class="con con1">
+                <div class="subheading child">
+                    <h3>Gesamtlast der letzten 24 Stunden</h3>
+                    <h5 class="dimmed">Aktuelle und frühere Leistungsinformationen.</h5>
+                </div>
+                <canvas id="overall_statistics" height="120"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="external/chartjs/statistics.js"></script>

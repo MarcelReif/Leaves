@@ -1,0 +1,49 @@
+<h2>Dienst neuinstallieren</h2>
+<h5 class="dimmed">Einen Dienst löschen und neuinstallieren.</h5>
+
+<form>
+    <div class="flex">
+        <div class="row">
+            <div class="con con1">
+                <label for="op_sys">Betriebssystem</label>
+                <select id="op_sys">
+                    <option>Ubuntu 16.04</option>
+                    <option>Ubuntu 16.10</option>
+                    <option>Ubuntu 17.04</option>
+                    <option>Ubuntu 17.10</option>
+                    <option>CentOS 7</option>
+                    <option>CentOS 8</option>
+                </select>
+                <span></span>
+            </div>
+            <div class="con con1">
+                <label for="arch">Architektur</label>
+                <select id="arch">
+                    <option>32 - Bit</option>
+                    <option>64 - Bit</option>
+                </select>
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="con con1">
+                <label for="hostname">Hostname</label>
+                <input type="text" id="hostname" placeholder="ubuntu16_04-main">
+                <span></span>
+            </div>
+            <div class="con con1">
+                <label for="hostname">Passwort</label>
+                <input type="password" id="password" placeholder="Passwort">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="con con1">
+                <label for="parameters">Benutzerdefinierte Parameter</label>
+                <textarea id="parameters"></textarea>
+                <span></span>
+            </div>
+        </div>
+        <button class="btn blue small">Neuinstallieren</button>
+    </div>
+</form>

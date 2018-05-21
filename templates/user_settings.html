@@ -1,6 +1,46 @@
 <div id="user_settings">
-    <div id="notification">
+    <div id="notification" class="dropdown_trigger" target="notifications">
         <img src="./assets/images/line_icons/alarm.svg" alt="">
     </div>
-    <img src="./assets/images/default_avatar.svg" alt="" id="profile_image">
+    <img src="./assets/images/default_avatar.svg" alt="" id="profile_image" class="dropdown_trigger" target="user_panel">
+
+    <div class="user_panel_dropdown small" id="user_panel" trigger="user_panel">
+        <h4>Marcel Reif</h4>
+        <p class="small"><a href="#"><i class="fas fa-cog"></i>Einstellungen</a></p>
+        <p class="small"><a href="#"><i class="fas fa-life-ring"></i>Unterstützung</a></p>
+        <p class="small"><a href="#"><i class="fas fa-power-off"></i>Abmelden</a></p>
+    </div>
+
+    <div class="user_panel_dropdown medium" id="notifications" trigger="notifications">
+        <h4>Benachrichtigungen</h4>
+        <div class="flex">
+            <div class="row">
+                <div class="con con1">
+                    <i class="fas fa-credit-card"></i>
+                </div>
+                <div class="con con10">
+                    <h4>Kreditkarte nicht mehr gültig</h4>
+                    <p class="small">Bitte aktualisiere deine Kreditkarteninformationen. Spätere Abrechnungen können nicht getätigt werden.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="con con1">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="con con10">
+                    <h4>Dienst d-ubuntu16.04 abgestürzt</h4>
+                    <p class="small">Der Dienst mit der Bezeichnung "d-ubuntu16.04" ist abgestürzt.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="con con1">
+                    <i class="fas fa-life-ring"></i>
+                </div>
+                <div class="con con10">
+                    <h4>Antwort auf: "Paketlisten können nicht aktualisiert werden"</h4>
+                    <p class="small">Du hast eine Antwort auf: "Paketlisten können nicht aktualisiert werden" erhalten.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

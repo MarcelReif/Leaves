@@ -1,0 +1,106 @@
+<div id="filemanager">
+    <div class="subheading child">
+        <h3>Dateimanager</h3>
+        <h5 class="dimmed">Verwaltung einzelner Ordner und Dateien.</h5>
+    </div>
+
+    <div class="flex">
+        <div class="row" id="fm_header">
+            <div class="con con1 vert_middle">
+                <h5>Objekttyp</h5>
+            </div>
+            <div class="con con3 vert_middle">
+                <h5>Dateiname</h5>
+            </div>
+            <div class="con con3 vert_middle">
+                <h5>Dateigröße</h5>
+            </div>
+            <div class="con con3 vert_middle">
+                <h5>Zuletzt geändert</h5>
+            </div>
+            <div class="con con3 vert_middle align_right">
+                <h5>Atkion</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="con con1 vert_middle file_type">
+                <i class="fa fa-file fa-fw"></i>
+                <p>Datei</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>initrd.img</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>33 Bytes</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>19.05.2018, 15:49</p>
+            </div>
+            <div class="con con3 vert_middle align_right">
+                <i class="fas fa-times modal_opener" target="delete_object"></i>
+                <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="con con1 vert_middle file_type">
+                <i class="fa fa-file fa-fw"></i>
+                <p>Datei</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>vmlinuz</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>30 Bytes</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>14.05.2018, 19:38</p>
+            </div>
+            <div class="con con3 vert_middle align_right">
+                <i class="fas fa-times modal_opener" target="delete_object"></i>
+                <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="con con1 vert_middle file_type">
+                <i class="fa fa-folder fa-fw"></i>
+                <p>Ordner</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>boot</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>Unbekannt</p>
+            </div>
+            <div class="con con3 vert_middle">
+                <p>13.05.2018, 12:21</p>
+            </div>
+            <div class="con con3 vert_middle align_right">
+                <i class="fas fa-times modal_opener" target="delete_object"></i>
+                <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" trigger="delete_object">
+        <div class="content">
+            <i class="fas fa-times modal_closer"></i>
+            <h3>Datei oder Ordner löschen.</h3>
+            <p class="margin bottom px15">Willst du diese Aktion wirklich ausführen?</p>
+            <a class="btn red small">Ja, löschen</a>
+            <a class="btn blue small hard_closer">Abbrechen</a>
+        </div>
+    </div>
+
+    <div class="modal" trigger="edit_object">
+        <div class="content">
+            <i class="fas fa-times modal_closer"></i>
+            <h3>Datei oder Ordner bearbeiten.</h3>
+            <p class="margin bottom px15">Ändern bestimmter Eigenschaften.</p>
+            <form>
+                <input type="text" placeholder="Name ändern">
+                <span class="margin bottom px15"></span>
+            </form>
+            <a class="btn blue small">Übernehmen</a>
+        </div>
+    </div>
+</div>

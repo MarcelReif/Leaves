@@ -1,0 +1,55 @@
+#console {
+  input {
+    margin-top: 15px;
+    display: block;
+  }
+}
+
+#console_window {
+  position: relative;
+  max-height: 360px;
+  overflow-y: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ededed;
+  border: 1px #ddd solid;
+  padding: 15px;
+
+  #preloader_console {
+    width: 100%;
+    background: white;
+    height: 100%;
+    z-index: -5;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &.visible {
+      z-index: 10;
+      opacity: 1;
+    }
+
+    img {
+      width: 64px;
+      height: 64px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  span {
+    display: block;
+    font-family: "Courier New", sans-serif;
+    font-size: 13px;
+    color: @black;
+  }
+}
