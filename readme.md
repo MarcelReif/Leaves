@@ -16,7 +16,7 @@ Je nach Webserver variiert das Einschalten dieser Funktion.
 ```  
 sudo a2enmod include  
 ```  
-Dieser einfache Befehl reicht jedoch nicht aus. Der Webserver an sich ist nun für SSI konfiguriert, die Befehle in den ``.html``-Dateien jedoch werden noch nicht verarbeitet. Die Option ``+Includes`` muss noch ain Deine vHost-Konfiguration eingetragen werden.  
+Dieser einfache Befehl reicht jedoch nicht aus. Der Webserver an sich ist nun für SSI konfiguriert, die Befehle in den ``.html``-Dateien jedoch werden noch nicht verarbeitet. Die Option ``+Includes`` muss noch in Deine vHost-Konfiguration eingetragen werden.  
 ```  
 <Directory /nur/ein/beispiel>  
  Options +Includes</Directory>  
@@ -26,7 +26,8 @@ Dieser einfache Befehl reicht jedoch nicht aus. Der Webserver an sich ist nun f�
 Um SSI unter NGINX zu aktivieren reicht eine einzelne Zeile Code in deiner Konfiguration aus:  
 ```  
 location / {  
- ssi on;}  
+ ssi on;
+}  
 ```  
 Durchgeführt? Perfekt! Du kannst Leaves nun für deine Verwendungszwecke benutzen.  
   
