@@ -1,0 +1,68 @@
+#profile {
+  #profile_img {
+    height: 128px;
+    width: 128px;
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+  }
+
+  h6 {
+    background: @blue;
+    padding: 5px 10px;
+    display: inline-block;
+    box-shadow: 0 3px 10px rgba(96,167,252,0.6);
+    border-radius: 5px;
+  }
+
+  table {
+    width: 100%;
+    margin: 25px 0;
+
+    td {
+      color: @gray;
+      font-size: 14px;
+      padding: 5px 0;
+
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+  }
+}
+
+#todo_list {
+  table {
+    width: 100%;
+    margin: 25px 0;
+
+    th {
+      text-align: left;
+      font-size: 14px;
+      color: @black;
+      opacity: .7;
+
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+
+    td {
+      color: @gray;
+      font-size: 14px;
+      padding: 5px 0;
+
+      .far {
+        cursor: pointer;
+      }
+
+      .fa-check-circle {
+        color: @blue;
+      }
+
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+  }
+}

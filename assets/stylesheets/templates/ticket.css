@@ -1,0 +1,16 @@
+#ticket_self .content {
+  width: calc(100% - 80px);
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+#ticket_self .content h4 {
+  margin-bottom: 3px;
+}
+#ticket_self img {
+  filter: brightness(0) invert(1);
+  height: 29px;
+  width: 32px;
+  margin-bottom: -3px;
+}
+/*# sourceMappingURL=ticket.css.map */

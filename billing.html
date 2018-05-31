@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <meta name="description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
+        <meta property="og:title" content="Willkommen :: Leaves Webinterface v1">
+        <meta property="og:description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
+        <meta property="og:url" content="https://preview.msr-webdesign.de/leaves">
+        <meta property="og:image" content="https://preview.msr-webdesign.de/leaves/preview.png">
+
+        <title>Willkommen :: Leaves Webinterface v1</title>
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/images/prev_icons/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/prev_icons/apple-touch-icon-114x114.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/prev_icons/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/prev_icons/apple-touch-icon-144x144.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/images/prev_icons/apple-touch-icon-60x60.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/images/prev_icons/apple-touch-icon-120x120.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/images/prev_icons/apple-touch-icon-76x76.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/images/prev_icons/apple-touch-icon-152x152.png"/>
+        <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-196x196.png" sizes="196x196"/>
+        <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-32x32.png" sizes="32x32"/>
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/all.min.css">
+        <link rel="stylesheet" type="text/css" href="external/fontawesome/css/fontawesome-all.min.css">
+
+        <script src="external/chartjs/chartjs.js"></script>
+    </head>
+    <body>
+        <div id="main_sidebar">
+            <i class="fas fa-times" id="close_sidebar"></i>
+            <div class="content">
+                <img src="./assets/images/logo_512.png" alt="" id="logo">
+                <h2 id="sidebar_title">Leaves</h2>
+                <ul>
+                    <li>
+                        <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
+                        <a href="index.html">Übersicht</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
+                        <a href="services.html">Dienstübersicht</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
+                        <a href="usermanagement.html">Nutzerverwaltung</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
+                        <a href="knowledgebase.html">Wissensdatenbank</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
+                        <a href="support.html">Supportanfragen</a>
+                    </li>
+                    <li class="active">
+                        <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
+                        <a>Rechnungen</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="btn red round" id="logout">Abmelden</a>
+        </div>
+
+        <main>
+            <!--#include FILE="templates/corner_right_top_panel.html" -->
+
+            <!--#include FILE="templates/bill_list.html" -->
+        </main>
+
+        <script src="assets/javascript/jquery.js"></script>
+        <script src="assets/javascript/main.js"></script>
+    </body>
+</html>

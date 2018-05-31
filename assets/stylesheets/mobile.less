@@ -1,0 +1,609 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #user_settings {
+    display: none;
+  }
+
+  #mobile_menu_button {
+    display: block !important;
+
+    i {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 8px;
+      color: @black;
+      font-size: 20px;
+      position: fixed;
+      top: 35px;
+      right: 35px;
+      background: linear-gradient(45deg, #e1f7fc, #c2e2fc);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+      z-index: 5;
+    }
+  }
+
+  #main_sidebar {
+    width: 100% !important;
+    transform: translateX(-100%);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 9999;
+
+    &:before {
+      background: linear-gradient(45deg, #e1f7fc, #c2e2fc) !important;
+      opacity: 1 !important;
+    }
+
+    &.visible {
+      transform: translateX(0%);
+    }
+
+    #close_sidebar {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 8px;
+      color: @black;
+      font-size: 20px;
+      position: fixed;
+      top: 35px;
+      right: 35px;
+      background: #ceeafc;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+      z-index: 5;
+      display: block !important;
+    }
+
+    .content {
+      padding: 45px !important;
+    }
+
+    #logo {
+      width: 45px !important;
+      height: 45px !important;
+      display: inline-block !important;
+      vertical-align: middle;
+      margin: 0 !important;
+    }
+
+    #sidebar_title {
+      display: inline-block;
+      margin: 0 0 0 15px !important;
+      vertical-align: middle;
+      font-size: 22px;
+    }
+
+    ul {
+      margin-top: 35px !important;
+
+      li {
+        margin: 0 0 15px 0 !important;
+      }
+    }
+
+    object {
+      height: 20px;
+    }
+
+    #logout {
+      padding: 10px 15px;
+      bottom: 35px !important;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  main {
+    width: 100% !important;
+    position: relative;
+    padding: 35px !important;
+  }
+
+  .flex {
+    .row {
+      display: block !important;
+      margin: 0 !important;
+
+      .con {
+        margin: 20px 0 !important;
+      }
+    }
+  }
+
+  h1 {
+    word-wrap: break-word;
+  }
+
+  /* --- Services --- */
+  #service_management {
+    .con {
+      display: none;
+
+      &:nth-child(-n+2) {
+        display: inline-block;
+      }
+    }
+
+    a {
+      display: table;
+      margin-bottom: 10px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    br {
+      display: none;
+    }
+
+    .conSmall,.con3 {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+    }
+
+    #status_bubble {
+      width: 26px !important;
+      height: 26px !important;
+      margin-right: 10px;
+    }
+
+    h3 {
+      font-size: 17px;
+    }
+  }
+
+  /* --- Modals --- */
+  .modal {
+    .content {
+      width: 90% !important;
+      max-height: 90%;
+      overflow-y: auto;
+
+      br {
+        display: none;
+      }
+
+      .btn {
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .modal_closer {
+        top: 15px;
+        right: 15px;
+      }
+
+      #console_window {
+        height: 230px;
+      }
+    }
+  }
+
+  /* --- User management --- */
+  #user_list {
+    overflow: scroll;
+
+    table {
+      width: 1000px !important;
+    }
+  }
+
+  /* --- Filemanager --- */
+  #filelist {
+    overflow: scroll;
+
+    table {
+      width: 600px !important;
+    }
+  }
+
+  /* --- Todo List --- */
+  #todo_list_table {
+    overflow: scroll;
+
+    table {
+      width: 600px !important;
+    }
+  }
+
+  /* --- WYSIWYG Editor --- */
+  .html_editor {
+    .top_bar {
+      display: flex;
+      overflow-x: scroll;
+
+      object {
+        margin: 0 !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #user_settings {
+    display: none;
+  }
+
+  #mobile_menu_button {
+    display: block !important;
+
+    i {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 8px;
+      color: @black;
+      font-size: 20px;
+      position: fixed;
+      top: 35px;
+      right: 35px;
+      background: linear-gradient(45deg, #e1f7fc, #c2e2fc);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+      z-index: 5;
+    }
+  }
+
+  #main_sidebar {
+    width: 60% !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1) !important;
+    transform: translateX(-100%);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 9999;
+
+    &:before {
+      background: linear-gradient(45deg, #e1f7fc, #c2e2fc) !important;
+      opacity: 1 !important;
+    }
+
+    &.visible {
+      transform: translateX(0%);
+    }
+
+    #close_sidebar {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 8px;
+      color: @black;
+      font-size: 20px;
+      position: fixed;
+      top: 35px;
+      right: 35px;
+      background: #ceeafc;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+      z-index: 5;
+      display: block !important;
+    }
+
+    .content {
+      padding: 45px !important;
+    }
+
+    #logo {
+      width: 45px !important;
+      height: 45px !important;
+      display: inline-block !important;
+      vertical-align: middle;
+      margin: 0 !important;
+    }
+
+    #sidebar_title {
+      display: inline-block;
+      margin: 0 0 0 15px !important;
+      vertical-align: middle;
+      font-size: 22px;
+    }
+
+    ul {
+      margin-top: 35px !important;
+
+      li {
+        margin: 0 0 15px 0 !important;
+      }
+    }
+
+    object {
+      height: 20px;
+    }
+
+    #logout {
+      padding: 10px 15px;
+      bottom: 35px !important;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  main {
+    width: 100% !important;
+    position: relative;
+    padding: 35px !important;
+  }
+
+  .flex {
+    .row {
+      display: block !important;
+      margin: 0 !important;
+
+      .con {
+        width: calc(50% - 20px) !important;
+        display: inline-block !important;
+        margin: 0 0 25px 0 !important;
+        vertical-align: top;
+      }
+    }
+  }
+
+  /* --- Service management --- */
+  #service_management {
+    #service_actions {
+      .btn {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  /* --- Modals --- */
+  .modal {
+    .content {
+      width: 90% !important;
+      max-height: 90%;
+      overflow-y: auto;
+
+      br {
+        display: none;
+      }
+
+      .btn {
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .modal_closer {
+        top: 15px;
+        right: 15px;
+      }
+
+      #console_window {
+        height: 230px;
+      }
+    }
+  }
+
+  /* --- User management --- */
+  #user_list {
+    overflow: scroll;
+
+    table {
+      width: 1000px !important;
+    }
+  }
+
+  /* --- WYSIWYG Editor --- */
+  .html_editor {
+    .top_bar {
+      display: flex;
+      overflow-x: scroll;
+
+      object {
+        margin: 0 !important;
+      }
+    }
+  }
+
+  /* --- Profile --- */
+  #profile_main {
+    &.flex {
+      .row {
+        display: block !important;
+        margin: 0 !important;
+
+        .con {
+          margin: 20px 0 !important;
+          width: 100% !important;
+        }
+      }
+    }
+
+    /* --- Todo List --- */
+    #todo_list_table {
+      overflow: scroll;
+
+      table {
+        width: 700px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+  main {
+    width: 100% !important;
+    position: relative;
+    padding: 35px !important;
+  }
+
+  #mobile_menu_button {
+    display: block !important;
+
+    i {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 8px;
+      color: @black;
+      font-size: 20px;
+      position: fixed;
+      top: 35px;
+      right: 35px;
+      background: linear-gradient(45deg, #e1f7fc, #c2e2fc);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+      z-index: 5;
+    }
+  }
+
+  #main_sidebar {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1) !important;
+    transform: translateX(-100%);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 9999;
+
+    &:before {
+      background: linear-gradient(45deg, #e1f7fc, #c2e2fc) !important;
+      opacity: 1 !important;
+    }
+
+    &.visible {
+      transform: translateX(0%);
+    }
+
+    #close_sidebar {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 8px;
+      color: @black;
+      font-size: 20px;
+      position: fixed;
+      top: 35px;
+      right: 35px;
+      background: #ceeafc;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+      z-index: 5;
+      display: block !important;
+    }
+
+    .content {
+      padding: 45px !important;
+    }
+
+    #logo {
+      width: 45px !important;
+      height: 45px !important;
+      display: inline-block !important;
+      vertical-align: middle;
+      margin: 0 !important;
+    }
+
+    #sidebar_title {
+      display: inline-block;
+      margin: 0 0 0 15px !important;
+      vertical-align: middle;
+      font-size: 22px;
+    }
+
+    ul {
+      margin-top: 35px !important;
+
+      li {
+        margin: 0 0 15px 0 !important;
+      }
+    }
+
+    object {
+      height: 20px;
+    }
+
+    #logout {
+      padding: 10px 15px;
+      bottom: 35px !important;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  /* --- Service management --- */
+  #service_management {
+    #service_actions {
+      .btn {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  /* --- User management --- */
+  #user_list {
+    overflow: scroll;
+
+    table {
+      min-width: 100% !important;
+    }
+  }
+
+  /* --- Modals --- */
+  .modal {
+    .content {
+      width: 90% !important;
+      max-height: 90%;
+      overflow-y: auto;
+
+      .btn {
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .modal_closer {
+        top: 15px;
+        right: 15px;
+      }
+
+      #console_window {
+        height: 230px;
+      }
+    }
+  }
+
+  /* --- Ticket list --- */
+  #ticket_list {
+    .content {
+      vertical-align: top !important;
+    }
+
+    .btn {
+      vertical-align: top !important;
+    }
+  }
+
+  /* --- Todo List --- */
+  #todo_list_table {
+    overflow: scroll;
+
+    table {
+      width: 600px !important;
+    }
+  }
+}

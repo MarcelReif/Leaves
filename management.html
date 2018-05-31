@@ -2,6 +2,7 @@
 <html lang="de">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
         <meta name="description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
         <meta property="og:title" content="Willkommen :: Leaves Webinterface v1">
         <meta property="og:description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
@@ -28,6 +29,7 @@
     </head>
     <body>
         <div id="main_sidebar">
+            <i class="fas fa-times" id="close_sidebar"></i>
             <div class="content">
                 <img src="./assets/images/logo_512.png" alt="" id="logo">
                 <h2 id="sidebar_title">Leaves</h2>
@@ -42,19 +44,19 @@
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
-                        <a>Nutzerverwaltung</a>
+                        <a href="usermanagement.html">Nutzerverwaltung</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
-                        <a>Wissensdatenbank</a>
+                        <a href="knowledgebase.html">Wissensdatenbank</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
-                        <a>Supportanfragen</a>
+                        <a href="support.html">Supportanfragen</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
-                        <a>Rechnungen</a>
+                        <a href="billing.html">Rechnungen</a>
                     </li>
                 </ul>
             </div>
@@ -64,7 +66,7 @@
         <!--#include FILE="templates/executing_action.html" -->
 
         <main>
-            <!--#include FILE="templates/user_settings.html" -->
+            <!--#include FILE="templates/corner_right_top_panel.html" -->
 
             <!--#include FILE="templates/service_management.html" -->
 

@@ -1,0 +1,33 @@
+<h3>Neuen Artikel erstellen</h3>
+<h5 class="dimmed">Erstellen eines neuen Wissensdatenbankartikels.</h5>
+
+<form>
+    <div class="flex">
+        <div class="row">
+            <div class="con con1">
+                <label for="article_title">Artikelname</label>
+                <input type="text" id="article_title" placeholder="Beispielname">
+                <span></span>
+
+                <br>
+
+                <label for="category">Kategorie</label>
+                <select id="category">
+                    <option>Server</option>
+                    <option>Webhosting & Domains</option>
+                    <option>Abrechnung</option>
+                </select>
+                <span></span>
+            </div>
+            <div class="con con1">
+                <label for="article_description">Artikelbeschreibung (kurz!)</label>
+                <textarea id="article_description"></textarea>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</form>
+
+<br><br>
+
+<!--#include FILE="wysiwyg.html" -->

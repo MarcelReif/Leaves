@@ -11,18 +11,30 @@
     color: #555555 !important;
   }
 
-  .file_type {
-    p {
-      display: inline-block;
-      margin-left: 5px;
+  table {
+    width: 100%;
+
+    th {
+      text-align: left;
+
+      &:last-of-type {
+        text-align: right !important;
+      }
     }
-  }
 
-  .row {
-    margin: 5px -15px;
+    p {
+      display: inline;
+    }
 
-    &:first-of-type {
-      margin: 0 -15px;
+    .fa-fw {
+      display: inline;
+      margin-right: 5px;
+    }
+
+    td {
+      &:last-of-type {
+        text-align: right;
+      }
     }
   }
 

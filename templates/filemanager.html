@@ -4,81 +4,45 @@
         <h5 class="dimmed">Verwaltung einzelner Ordner und Dateien.</h5>
     </div>
 
-    <div class="flex">
-        <div class="row" id="fm_header">
-            <div class="con con1 vert_middle">
-                <h5>Objekttyp</h5>
-            </div>
-            <div class="con con3 vert_middle">
-                <h5>Dateiname</h5>
-            </div>
-            <div class="con con3 vert_middle">
-                <h5>Dateigröße</h5>
-            </div>
-            <div class="con con3 vert_middle">
-                <h5>Zuletzt geändert</h5>
-            </div>
-            <div class="con con3 vert_middle align_right">
-                <h5>Atkion</h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="con con1 vert_middle file_type">
-                <i class="fa fa-file fa-fw"></i>
-                <p>Datei</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>initrd.img</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>33 Bytes</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>19.05.2018, 15:49</p>
-            </div>
-            <div class="con con3 vert_middle align_right">
-                <i class="fas fa-times modal_opener" target="delete_object"></i>
-                <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
-            </div>
-        </div>
-        <div class="row">
-            <div class="con con1 vert_middle file_type">
-                <i class="fa fa-file fa-fw"></i>
-                <p>Datei</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>vmlinuz</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>30 Bytes</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>14.05.2018, 19:38</p>
-            </div>
-            <div class="con con3 vert_middle align_right">
-                <i class="fas fa-times modal_opener" target="delete_object"></i>
-                <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
-            </div>
-        </div>
-        <div class="row">
-            <div class="con con1 vert_middle file_type">
-                <i class="fa fa-folder fa-fw"></i>
-                <p>Ordner</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>boot</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>Unbekannt</p>
-            </div>
-            <div class="con con3 vert_middle">
-                <p>13.05.2018, 12:21</p>
-            </div>
-            <div class="con con3 vert_middle align_right">
-                <i class="fas fa-times modal_opener" target="delete_object"></i>
-                <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
-            </div>
-        </div>
+    <div id="filelist">
+        <table>
+            <tr id="fm_header">
+                <th>
+                    <h5>Objekttyp</h5>
+                </th>
+                <th >
+                    <h5>Dateiname</h5>
+                </th>
+                <th>
+                    <h5>Dateigröße</h5>
+                </th>
+                <th>
+                    <h5>Zuletzt geändert</h5>
+                </th>
+                <th>
+                    <h5>Atkion</h5>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <i class="fa fa-file fa-fw"></i>
+                    <p>Datei</p>
+                </td>
+                <td>
+                    <p>initrd.img</p>
+                </td>
+                <td>
+                    <p>33 Bytes</p>
+                </td>
+                <td>
+                    <p>19.05.2018, 15:49</p>
+                </td>
+                <td class="con con3 vert_middle align_right">
+                    <i class="fas fa-times modal_opener" target="delete_object"></i>
+                    <i class="fas fa-pencil-alt modal_opener" target="edit_object"></i>
+                </td>
+            </tr>
+        </table>
     </div>
 
     <div class="modal" trigger="delete_object">

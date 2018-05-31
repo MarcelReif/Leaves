@@ -2,6 +2,7 @@
 <html lang="de">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
         <meta name="description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
         <meta property="og:title" content="Willkommen :: Leaves Webinterface v1">
         <meta property="og:description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
@@ -28,40 +29,43 @@
     </head>
     <body>
         <div id="main_sidebar">
-        <div class="content">
-            <img src="./assets/images/logo_512.png" alt="" id="logo">
-            <h2 id="sidebar_title">Leaves</h2>
-            <ul>
-                <li>
-                    <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
-                    <a href="index.html">Übersicht</a>
-                </li>
-                <li>
-                    <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
-                    <a href="services.html">Dienstübersicht</a>
-                </li>
-                <li class="active">
-                    <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
-                    <a>Nutzerverwaltung</a>
-                </li>
-                <li>
-                    <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
-                    <a href="knowledgebase.html">Wissensdatenbank</a>
-                </li>
-                <li>
-                    <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
-                    <a href="support.html">Supportanfragen</a>
-                </li>
-                <li>
-                    <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
-                    <a href="billing.html">Rechnungen</a>
-                </li>
-            </ul>
-        </div>
-        <a class="btn red round" id="logout">Abmelden</a>
+            <i class="fas fa-times" id="close_sidebar"></i>
+            <div class="content">
+                <img src="./assets/images/logo_512.png" alt="" id="logo">
+                <h2 id="sidebar_title">Leaves</h2>
+                <ul>
+                    <li>
+                        <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
+                        <a href="index.html">Übersicht</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
+                        <a href="services.html">Dienstübersicht</a>
+                    </li>
+                    <li class="active">
+                        <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
+                        <a>Nutzerverwaltung</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
+                        <a href="knowledgebase.html">Wissensdatenbank</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
+                        <a href="support.html">Supportanfragen</a>
+                    </li>
+                    <li>
+                        <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
+                        <a href="billing.html">Rechnungen</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="btn red round" id="logout">Abmelden</a>
     </div>
 
         <main>
+            <!--#include FILE="templates/corner_right_top_panel.html" -->
+
             <!--#include FILE="templates/user_list.html" -->
         </main>
 
@@ -69,6 +73,20 @@
             <div class="content small">
                 <i class="fas fa-times modal_closer"></i>
                 <!--#include FILE="templates/add_user.html" -->
+            </div>
+        </div>
+
+        <div class="modal" id="edit_user" trigger="edit_user">
+            <div class="content small">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/edit_user.html" -->
+            </div>
+        </div>
+
+        <div class="modal" id="delete_user" trigger="delete_user">
+            <div class="content">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/delete_user.html" -->
             </div>
         </div>
 

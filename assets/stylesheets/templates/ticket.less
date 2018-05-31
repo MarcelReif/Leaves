@@ -1,0 +1,29 @@
+#ticket_self {
+  .parent {
+    margin-bottom: 45px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .content {
+    width: calc(~'100% - 80px');
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+
+    h4 {
+      margin-bottom: 3px;
+    }
+  }
+
+  img {
+    height: 39px;
+    width: 39px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+    vertical-align: top;
+  }
+}

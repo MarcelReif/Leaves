@@ -43,9 +43,31 @@ $('.action_button').on('click', function () {
 });
 
 /* User panel */
-$('#user_settings').find('.dropdown_trigger').on('click', function () {
-    var target = $(this).attr("target");
+$('body').on('click', function () {
+    $('.user_panel_dropdown ').removeClass('visible');
+});
+
+$('#user_settings').find('.dropdown_trigger').on('click', function (event) {
+    $('.user_panel_dropdown ').removeClass('visible');
+
+    const target = $(this).attr("target");
     if (target == null || target === "")
         return;
     $('[trigger="' + target + '"]').toggleClass('visible');
+
+    event.stopPropagation();
+});
+
+/* Todo list checkbox */
+$('#todo_list').find('.far').on('click', function () {
+    $(this).toggleClass('fa-check-circle fa-circle');
+});
+
+/* Mobile sidebar */
+$('#mobile_menu_button').on('click', function () {
+   $('#main_sidebar').addClass('visible');
+});
+
+$('#close_sidebar').on('click', function () {
+   $('#main_sidebar').removeClass('visible');
 });

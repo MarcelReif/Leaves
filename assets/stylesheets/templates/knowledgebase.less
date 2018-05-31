@@ -1,0 +1,66 @@
+#add_article {
+  cursor: pointer;
+  display: inline-block;
+
+  &:before {
+    display: inline;
+    content: '\f067';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    margin-right: 15px;
+  }
+}
+
+#article_list,#article {
+  .parent {
+    margin-bottom: 25px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .content {
+    width: calc(~'100% - 80px');
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+
+    h4 {
+      margin-bottom: 3px;
+    }
+  }
+
+  object {
+    filter: brightness(0) invert(1);
+    height: 29px;
+    width: 32px;
+    margin-bottom: -3px;
+  }
+}
+
+#article {
+  .fas {
+    margin: 20px 8px 0 0;
+    color: white;
+    background: @blue;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0;
+  }
+}

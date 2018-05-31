@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <meta name="description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
+        <meta property="og:title" content="Willkommen :: Leaves Webinterface v1">
+        <meta property="og:description" content="Modern, einfach und schlicht. Biete deinen Kunden mit Leaves ein Interface der Zukunft.">
+        <meta property="og:url" content="https://preview.msr-webdesign.de/leaves">
+        <meta property="og:image" content="https://preview.msr-webdesign.de/leaves/preview.png">
+
+        <title>Willkommen :: Leaves Webinterface v1</title>
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/images/prev_icons/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/prev_icons/apple-touch-icon-114x114.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/prev_icons/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/prev_icons/apple-touch-icon-144x144.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/images/prev_icons/apple-touch-icon-60x60.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/images/prev_icons/apple-touch-icon-120x120.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/images/prev_icons/apple-touch-icon-76x76.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/images/prev_icons/apple-touch-icon-152x152.png"/>
+        <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-196x196.png" sizes="196x196"/>
+        <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/png" href="assets/images/prev_icons/favicon-32x32.png" sizes="32x32"/>
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/all.min.css">
+        <link rel="stylesheet" type="text/css" href="external/fontawesome/css/fontawesome-all.min.css">
+
+        <script src="external/chartjs/chartjs.js"></script>
+    </head>
+    <body>
+        <div class="modal visible" id="signup">
+            <div class="content medium visible">
+                <h2>Bei Leaves registrieren</h2>
+                <h5 class="dimmed">Registriere dich, um alle Features nutzen zu können.</h5>
+                <br>
+                <form>
+                    <div class="flex">
+                        <h4>Personenbezogene Informationen</h4>
+                        <h5 class="dimmed">Erzähl' uns ein wenig über dich.</h5>
+                        <div class="row">
+                            <div class="con con1">
+                                <label for="firstname">Vorname</label>
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="firstname">
+                                <span></span>
+                            </div>
+                            <div class="con con1">
+                                <label for="lastname">Nachname</label>
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="lastname">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="con con1">
+                                <label for="street">Straße</label>
+                                <i class="fas fa-home"></i>
+                                <input type="text" id="street">
+                                <span></span>
+                            </div>
+                            <div class="con con1">
+                                <label for="housenr">Hausnummer</label>
+                                <i class="fas fa-map-marker"></i>
+                                <input type="text" id="housenr">
+                                <span></span>
+                            </div>
+                            <div class="con con1">
+                                <label for="city">Ort</label>
+                                <i class="fas fa-building"></i>
+                                <input type="text" id="city">
+                                <span></span>
+                            </div>
+                            <div class="con con1">
+                                <label for="plz">Postleitzahl</label>
+                                <i class="fas fa-sort-numeric-down"></i>
+                                <input type="text" id="plz">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <h4>Nutzerinformationen</h4>
+                        <h5 class="dimmed">Deine Login-Daten.</h5>
+                        <div class="row">
+                            <div class="con con1">
+                                <label for="username">Nutzername</label>
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="username">
+                                <span></span>
+                            </div>
+                            <div class="con con1">
+                                <label for="email">E-Mailadresse</label>
+                                <i class="fas fa-at"></i>
+                                <input type="email" id="email">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="con con1">
+                                <label for="password">Passwort</label>
+                                <i class="fas fa-key"></i>
+                                <input type="text" id="password">
+                                <span></span>
+                            </div>
+                            <div class="con con1">
+                                <label for="password2">Passwort wiederholen</label>
+                                <i class="fas fa-key"></i>
+                                <input type="email" id="password2">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <input type="checkbox" id="agb">
+                        <label for="agb" class="slider with_text"><p>Ich akzeptiere die allgemeinen Geschäftsbedigungen</p></label>
+                    </div>
+
+                    <br>
+
+                    <button class="btn blue small">Anmelden</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
