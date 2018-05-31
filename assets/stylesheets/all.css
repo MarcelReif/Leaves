@@ -537,7 +537,7 @@
   }
   /* --- Todo List --- */
   #todo_list_table {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   #todo_list_table table {
     width: 600px !important;
