@@ -19,7 +19,8 @@ sudo a2enmod include
 Dieser einfache Befehl reicht jedoch nicht aus. Der Webserver an sich ist nun für SSI konfiguriert, die Befehle in den ``.html``-Dateien jedoch werden noch nicht verarbeitet. Die Option ``+Includes`` muss noch in Deine vHost-Konfiguration eingetragen werden.  
 ```  
 <Directory /nur/ein/beispiel>  
- Options +Includes</Directory>  
+ Options +Includes
+</Directory>  
 ```  
   
 #### NGINX  
