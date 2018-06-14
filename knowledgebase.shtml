@@ -72,7 +72,7 @@
         <div class="modal" id="create_article" trigger="create_article">
             <div class="content large">
                 <i class="modal_closer fas fa-times"></i>
-                <!--#include FILE="templates/create_article.html" -->
+                <!--#include FILE="templates/create_article.shtml" -->
             </div>
         </div>
 

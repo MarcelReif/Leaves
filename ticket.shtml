@@ -72,7 +72,7 @@
         <div class="modal" trigger="answer_ticket">
             <div class="content medium">
                 <i class="fas fa-times modal_closer"></i>
-                <!--#include FILE="templates/answer_ticket.html" -->
+                <!--#include FILE="templates/answer_ticket.shtml" -->
             </div>
         </div>
 
