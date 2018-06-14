@@ -36,27 +36,27 @@
                 <ul>
                     <li>
                         <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
-                        <a href="index.html">Übersicht</a>
+                        <a href="index.shtml">Übersicht</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
-                        <a href="services.html">Dienstübersicht</a>
+                        <a href="services.shtml">Dienstübersicht</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
-                        <a href="usermanagement.html">Nutzerverwaltung</a>
-                    </li>
-                    <li class="active">
-                        <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
-                        <a>Wissensdatenbank</a>
+                        <a href="usermanagement.shtml">Nutzerverwaltung</a>
                     </li>
                     <li>
+                        <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
+                        <a href="knowledgebase.shtml">Wissensdatenbank</a>
+                    </li>
+                    <li class="active">
                         <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
-                        <a href="support.html">Supportanfragen</a>
+                        <a>Supportanfragen</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
-                        <a href="billing.html">Rechnungen</a>
+                        <a href="billing.shtml">Rechnungen</a>
                     </li>
                 </ul>
             </div>
@@ -66,8 +66,15 @@
         <main>
             <!--#include FILE="templates/corner_right_top_panel.html" -->
 
-            <!--#include FILE="templates/article_view.html" -->
+            <!--#include FILE="templates/ticket.html" -->
         </main>
+
+        <div class="modal" trigger="answer_ticket">
+            <div class="content medium">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/answer_ticket.html" -->
+            </div>
+        </div>
 
         <script src="assets/javascript/jquery.js"></script>
         <script src="assets/javascript/main.js"></script>

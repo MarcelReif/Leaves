@@ -841,6 +841,7 @@ form textarea {
   color: #555555;
   outline: none;
   background: transparent;
+  font-size: 14px;
 }
 form input[type=checkbox],
 form select[type=checkbox],
@@ -1450,6 +1451,9 @@ a {
 }
 #filemanager table th {
   text-align: left;
+}
+#filemanager table th h5 {
+  display: block;
 }
 #filemanager table th:last-of-type {
   text-align: right !important;

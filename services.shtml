@@ -36,27 +36,27 @@
                 <ul>
                     <li>
                         <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
-                        <a href="index.html">Übersicht</a>
+                        <a href="index.shtml">Übersicht</a>
                     </li>
                     <li class="active">
                         <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
-                        <a href="services.html">Dienstübersicht</a>
+                        <a>Dienstübersicht</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
-                        <a href="usermanagement.html">Nutzerverwaltung</a>
+                        <a href="usermanagement.shtml">Nutzerverwaltung</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
-                        <a href="knowledgebase.html">Wissensdatenbank</a>
+                        <a href="knowledgebase.shtml">Wissensdatenbank</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
-                        <a href="support.html">Supportanfragen</a>
+                        <a href="support.shtml">Supportanfragen</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
-                        <a href="billing.html">Rechnungen</a>
+                        <a href="billing.shtml">Rechnungen</a>
                     </li>
                 </ul>
             </div>
@@ -66,7 +66,7 @@
         <main>
             <!--#include FILE="templates/corner_right_top_panel.html" -->
 
-            <!--#include FILE="templates/statistic_charts.html" -->
+            <!--#include FILE="templates/service_overview.html" -->
         </main>
 
         <script src="assets/javascript/jquery.js"></script>

@@ -36,27 +36,27 @@
                 <ul>
                     <li>
                         <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
-                        <a href="index.html">Übersicht</a>
+                        <a href="index.shtml">Übersicht</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
-                        <a href="services.html">Dienstübersicht</a>
+                        <a href="services.shtml">Dienstübersicht</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
-                        <a href="usermanagement.html">Nutzerverwaltung</a>
-                    </li>
-                    <li>
-                        <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
-                        <a href="knowledgebase.html">Wissensdatenbank</a>
+                        <a href="usermanagement.shtml">Nutzerverwaltung</a>
                     </li>
                     <li class="active">
+                        <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
+                        <a>Wissensdatenbank</a>
+                    </li>
+                    <li>
                         <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
-                        <a>Supportanfragen</a>
+                        <a href="support.shtml">Supportanfragen</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
-                        <a href="billing.html">Rechnungen</a>
+                        <a href="billing.shtml">Rechnungen</a>
                     </li>
                 </ul>
             </div>
@@ -66,18 +66,17 @@
         <main>
             <!--#include FILE="templates/corner_right_top_panel.html" -->
 
-            <!--#include FILE="templates/ticket_list.html" -->
+            <!--#include FILE="templates/article_list.html" -->
         </main>
 
-        <div class="modal" trigger="create_ticket">
-            <div class="content medium">
-                <i class="fas fa-times modal_closer"></i>
-                <!--#include FILE="templates/create_ticket.html" -->
+        <div class="modal" id="create_article" trigger="create_article">
+            <div class="content large">
+                <i class="modal_closer fas fa-times"></i>
+                <!--#include FILE="templates/create_article.html" -->
             </div>
         </div>
 
         <script src="assets/javascript/jquery.js"></script>
         <script src="assets/javascript/main.js"></script>
-        <script src="assets/javascript/preview.js"></script>
     </body>
 </html>

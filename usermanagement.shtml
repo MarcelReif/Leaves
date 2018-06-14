@@ -36,43 +36,57 @@
                 <ul>
                     <li>
                         <object data="./assets/images/line_icons/dashboard.svg" type="image/svg+xml"></object>
-                        <a href="index.html">Übersicht</a>
+                        <a href="index.shtml">Übersicht</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/mechanical.svg" type="image/svg+xml"></object>
-                        <a href="services.html">Dienstübersicht</a>
-                    </li>
-                    <li>
-                        <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
-                        <a href="usermanagement.html">Nutzerverwaltung</a>
+                        <a href="services.shtml">Dienstübersicht</a>
                     </li>
                     <li class="active">
+                        <object data="./assets/images/line_icons/team.svg" type="image/svg+xml"></object>
+                        <a>Nutzerverwaltung</a>
+                    </li>
+                    <li>
                         <object data="./assets/images/line_icons/open-book.svg" type="image/svg+xml"></object>
-                        <a>Wissensdatenbank</a>
+                        <a href="knowledgebase.shtml">Wissensdatenbank</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/communication.svg" type="image/svg+xml"></object>
-                        <a href="support.html">Supportanfragen</a>
+                        <a href="support.shtml">Supportanfragen</a>
                     </li>
                     <li>
                         <object data="./assets/images/line_icons/budget.svg" type="image/svg+xml"></object>
-                        <a href="billing.html">Rechnungen</a>
+                        <a href="billing.shtml">Rechnungen</a>
                     </li>
                 </ul>
             </div>
             <a class="btn red round" id="logout">Abmelden</a>
-        </div>
+    </div>
 
         <main>
             <!--#include FILE="templates/corner_right_top_panel.html" -->
 
-            <!--#include FILE="templates/article_list.html" -->
+            <!--#include FILE="templates/user_list.html" -->
         </main>
 
-        <div class="modal" id="create_article" trigger="create_article">
-            <div class="content large">
-                <i class="modal_closer fas fa-times"></i>
-                <!--#include FILE="templates/create_article.html" -->
+        <div class="modal" id="add_user_modal" trigger="add_user">
+            <div class="content small">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/add_user.html" -->
+            </div>
+        </div>
+
+        <div class="modal" id="edit_user" trigger="edit_user">
+            <div class="content small">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/edit_user.html" -->
+            </div>
+        </div>
+
+        <div class="modal" id="delete_user" trigger="delete_user">
+            <div class="content">
+                <i class="fas fa-times modal_closer"></i>
+                <!--#include FILE="templates/delete_user.html" -->
             </div>
         </div>
 
