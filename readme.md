@@ -57,3 +57,16 @@ Kein Element wird außerhalb dieser Container platziert. Die Navigation befindet
 
 
 ![UI-Struktur](https://msr-webdesign.de/files/images/markup/leaves/ui_structure.png)
+
+## Nutzungslizenz
+#### Der Kunde hat viele Freiheiten. Folgende Möglichkeiten stehen dem Käufer eines Webdesigns offen:
+- Modifizierung des Produktes
+- Nutzung des Produktes unendlich oft für eigene Zwecke bei Landingpages, Frontend-Panels und Prototypes
+- Nutzung des Produktes zwei Mal für eigene Zwecke zur gleichen Zeit in unterschiedlichen Installationen bei WSF-Styles und WHMCS-Themes
+- Weitergabe von öffentlich zugänglichen Assets (zum Beispiel Schriftarten, FontAwesome, jQuery)
+
+#### Dem Kunden ist folgendes untersagt:
+- Kommerzielle und nicht-kommerzielle Verfielfältigung des Produktes
+- Weitergabe von bestimmten oder aller Assets (zum Beispiel Quellcode, individuell angefertigte Grafiken)
+- Modifzierung bis zu einem Grad, an dem das Produkt unauffällig kommerziell oder nicht-kommerziell an Dritte weitergegeben werden kann
+- Kommerzielle Umsetzung eines Prototypes (Umfasst beispielsweise den anschließenden Verkauf als Template)
